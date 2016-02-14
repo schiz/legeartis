@@ -1,0 +1,435 @@
+.container.internal-page .articles {
+  margin-bottom: 46px;
+  text-align: left;
+  margin-top: 16px;
+  margin-left: -4px;
+}
+.container.internal-page .articles article {
+  display: inline-block;
+  vertical-align: top;
+  padding: 14px 15px 48px 15px;
+  margin-bottom: 30px;
+  width: 171px;
+  background: #f4f4f4 url(../images/config-articles-bottom.png) bottom center repeat-x;
+  margin: 0px 35px 0px 29px;
+  text-align: center;
+  position: relative;
+}
+.container.internal-page .articles article.first {
+  margin-right: 37px;
+  margin-left: 26px;
+}
+.container.internal-page .articles article .article-icon {
+  margin-left: -12px;
+  margin-bottom: 1px;
+  width: 58px;
+  margin-top: 6px;
+}
+.container.internal-page .articles article.first .article-icon {
+  width: 69px;
+  margin-top: -1px;
+  margin-bottom: 7px;
+}
+.container.internal-page .articles article.last .article-icon {
+  width: 73px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+.container.internal-page .articles article .article-header h3 {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 3px;
+  text-align: center;
+  padding: 0 40px;
+  /*text-decoration: underline;*/
+
+}
+.container.internal-page .articles article .article-text {
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 9px;
+  padding: 0 6px;
+}
+.container.internal-page .articles article.last {
+  margin-right: 0px;
+}
+.container.internal-page .articles .article-line {
+  background: #dddedf;
+  display: inline-block;
+  width: 73px;
+  height: 1px;
+  position: relative;
+  font-size: 0px;
+  margin-top: 18px;
+}
+.container.internal-page .articles .article-line:before {
+  content: url(../images/line_dot.jpg) no-repeat;
+  height: 3px;
+  width: 4px;
+  color: #bbbdc0;
+  position: absolute;
+  left: -4px;
+  top: -1px;
+}
+.container.internal-page .articles .article-line:after {
+  content: url(../images/line_dot.jpg) no-repeat;
+  color: #bbbdc0;
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.container.internal-page .articles .article-line.top {
+  background: #dddedf;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  position: relative;
+  font-size: 0px;
+  position: absolute;
+  top: -18px;
+  left: 0px;
+}
+.container.internal-page .articles .article-line.top:before {
+  content: url(../images/line_dot.jpg) no-repeat;
+  height: 3px;
+  width: 4px;
+  color: #bbbdc0;
+  position: absolute;
+  left: -4px;
+  top: -1px;
+}
+.container.internal-page .articles .article-line.top:after {
+  content: url(../images/line_dot.jpg) no-repeat;
+  color: #bbbdc0;
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.container.internal-page .articles {
+  margin-bottom: 18px;
+}
+.container.internal-page > .model-general-description .offer {
+  margin-top: 26px;
+  margin-bottom: 41px;
+  margin-left: -3px;
+}
+.container.internal-page > .model-general-description .offer .offer-header {
+  position: relative;
+  margin-bottom: 13px;
+}
+.container.internal-page > .model-general-description .offer .offer-header h4 > a {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  line-height: 20px;
+  text-decoration: none;
+  height: 20px;
+}
+.container.internal-page > .model-general-description .offer .offer-header h4 > a:hover {
+  border: none;
+  height: 21px;
+}
+.container.internal-page > .model-general-description .offer .offer-header .offer-line {
+  background: #dddedf;
+  display: inline-block;
+  width: 290px;
+  height: 1px;
+  position: relative;
+  font-size: 0px;
+  position: absolute;
+  top: 12px;
+}
+.container.internal-page > .model-general-description .offer .offer-header .offer-line:before {
+  content: url(../images/line_dot.jpg) no-repeat;
+  height: 3px;
+  width: 4px;
+  color: #bbbdc0;
+  position: absolute;
+  left: -4px;
+  top: -1px;
+}
+.container.internal-page > .model-general-description .offer .offer-header .offer-line:after {
+  content: url(../images/line_dot.jpg) no-repeat;
+  color: #bbbdc0;
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.container.internal-page > .model-general-description .offer .offer-header .offer-line.left {
+  left: 20px;
+}
+.container.internal-page > .model-general-description .offer .offer-header .offer-line.left:after {
+  width: 0;
+  height: 0;
+  display: none;
+}
+.container.internal-page > .model-general-description .offer .offer-header .offer-line.right {
+  right: 18px;
+}
+.container.internal-page > .model-general-description .offer .offer-header .offer-line.right:before {
+  width: 0;
+  height: 0;
+  display: none;
+}
+.container.internal-page > .model-general-description .offer .offer-filter {
+  margin: 19px 0 34px 0;
+}
+.container.internal-page > .model-general-description .offer .offer-filter a {
+  border-bottom: 1px dashed #000;
+  color: #000;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0px 16px 0px 19px;
+  text-decoration: none;
+  line-height: 17px;
+  height: 14px;
+}
+.container.internal-page > .model-general-description .offer .offer-filter a.offer-filter-allCar,
+.container.internal-page > .model-general-description .offer .offer-filter a:hover {
+  border: none;
+}
+.container.internal-page > .model-general-description .offer .offer-articles {
+  text-align: left;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article {
+  display: inline-block;
+  position: relative;
+  margin: 9px 12px 0px 15px;
+  padding-left: 5px;
+  padding-bottom: 8px;
+  text-align: left;
+  width: 360px;
+  overflow: hidden;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article:before,
+.container.internal-page > .model-general-description .offer .offer-articles article:after {
+  content: "";
+  display: table;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article:after {
+  clear: both;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article.first .offer-line:after {
+  width: 0;
+  height: 0;
+  display: none;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article.second {
+  margin-right: 0px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article.second .offer-line:before {
+  width: 0;
+  height: 0;
+  display: none;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article h6 {
+  color: #f7941e;
+  font-size: 12px;
+  text-decoration: underline;
+  border: none;
+  margin-bottom: 8px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-img {
+  float: left;
+  padding: 5px 14px 6px 0px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text {
+  margin-top: 0px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text a {
+  color: #000;
+  font-size: 16px;
+  line-height: 18px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text a:hover {
+  text-decoration: none;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text p {
+  font-size: 13px;
+  line-height: 16px;
+  padding-top: 18px;
+  margin-bottom: -2px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text .readon {
+  color: #1c75bc;
+  font-style: italic;
+  font-size: 13px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text .bottom {
+  font-size: 12px;
+  line-height: 14px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-date {
+  font-family: 'PT Sans Narrow';
+  color: #939598;
+  font-size: 13px;
+  text-align: right;
+  margin-top: 9px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-line {
+  background: #dddedf;
+  display: inline-block;
+  width: 352px;
+  height: 1px;
+  position: relative;
+  font-size: 0px;
+  position: absolute;
+  bottom: 1px;
+  left: 7px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-line:before {
+  content: url(../images/line_dot.jpg) no-repeat;
+  height: 3px;
+  width: 4px;
+  color: #bbbdc0;
+  position: absolute;
+  left: -4px;
+  top: -1px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-line:after {
+  content: url(../images/line_dot.jpg) no-repeat;
+  color: #bbbdc0;
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-line:before,
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-line:after {
+  top: -1px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-line.bottom {
+  display: none;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article.last-row .offer-line {
+  display: none;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article.last-row .offer-line:before,
+.container.internal-page > .model-general-description .offer .offer-articles article.last-row .offer-line:after {
+  width: 0;
+  height: 0;
+}
+.container.internal-page > .model-general-description .offer .offer-articles .offer-end-line {
+  background: #dddedf;
+  display: inline-block;
+  width: 743px;
+  height: 1px;
+  position: relative;
+  font-size: 0px;
+  bottom: 15px;
+  left: 25px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles .offer-end-line:before {
+  content: url(../images/line_dot.jpg) no-repeat;
+  height: 3px;
+  width: 4px;
+  color: #bbbdc0;
+  position: absolute;
+  left: -4px;
+  top: -1px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles .offer-end-line:after {
+  content: url(../images/line_dot.jpg) no-repeat;
+  color: #bbbdc0;
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.container.internal-page > .model-general-description .offer {
+  margin-left: 0;
+  margin-top: 36px;
+  width: 110%;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article {
+  margin-left: 4px;
+  padding-bottom: 31px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article.second {
+  margin-left: 6px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-img {
+  padding-right: 20px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text {
+  margin-top: 8px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text a {
+  font-size: 15px;
+  font-weight: bold;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-article-text p {
+  padding-top: 15px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-date {
+  margin-top: 1px;
+  padding-right: 9px;
+}
+.container.internal-page > .model-general-description .offer .offer-articles article .offer-line {
+  display: none;
+}
+.container.internal-page > .model-general-description .offer .offer-articles .offer-end-line {
+  left: 5px;
+}
+.container.internal-page > .model-general-description .offer .pagination {
+  font-size: 0;
+  text-align: left;
+  padding: 0 12px;
+  margin-top: 1px;
+  margin-bottom: -43px;
+}
+.container.internal-page > .model-general-description .offer .pagination a,
+.container.internal-page > .model-general-description .offer .pagination span {
+  font-size: 14px;
+}
+.container.internal-page > .model-general-description .offer .pagination > a,
+.container.internal-page > .model-general-description .offer .pagination > span {
+  display: inline-block;
+  padding: 8px 7px 15px;
+  margin: 0 1px;
+}
+.container.internal-page > .model-general-description .offer .pagination a.first {
+  margin-left: 0;
+}
+.container.internal-page > .model-general-description .offer .pagination a.last {
+  margin-right: 0;
+}
+.container.internal-page > .model-general-description .offer .pagination a.active {
+  background: #bbbdc0;
+  color: #ffffff;
+}
+.container.internal-page > .model-general-description .offer .pagination .line {
+  background: #dddedf;
+  display: inline-block;
+  width: 743px;
+  height: 1px;
+  position: relative;
+  font-size: 0px;
+  left: 5px;
+  left: -7px;
+  margin-top: 15px;
+}
+.container.internal-page > .model-general-description .offer .pagination .line:before {
+  content: url(../images/line_dot.jpg) no-repeat;
+  height: 3px;
+  width: 4px;
+  color: #bbbdc0;
+  position: absolute;
+  left: -4px;
+  top: -1px;
+}
+.container.internal-page > .model-general-description .offer .pagination .line:after {
+  content: url(../images/line_dot.jpg) no-repeat;
+  color: #bbbdc0;
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.lt-ie8 .clearfix {
+  zoom: 1;
+}

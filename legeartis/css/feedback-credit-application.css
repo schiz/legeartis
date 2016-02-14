@@ -1,0 +1,392 @@
+.popup.feedback-credit-application {
+  width: 513px;
+  display: none;
+  background: url(../images/bg-feedback-popup.png) -1026px 0 repeat-y;
+}
+.popup.feedback-credit-application .close {
+  margin: 0;
+  padding: 0;
+  border: none;
+  top: 12px;
+  right: 20px;
+  width: 11px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background: url(../images/close-button-x.png) 0 0 no-repeat;
+  z-index: 10;
+  cursor: pointer;
+}
+.popup.feedback-credit-application .close:hover {
+  background-position: 0 -10px;
+}
+.popup.feedback-credit-application  > .wrapper {
+  position: relative;
+}
+.popup.feedback-credit-application  > .wrapper:before,
+.popup.feedback-credit-application  > .wrapper:after {
+  content: "";
+  display: table;
+}
+.popup.feedback-credit-application  > .wrapper:after {
+  clear: both;
+}
+.popup.feedback-credit-application  > .wrapper form > .additional-img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: url(../images/bg-feedback-popup.png) 0 0 no-repeat;
+}
+.popup.feedback-credit-application  > .wrapper form > .additional-img.top-img {
+  background-position: 0 0;
+  top: -5px;
+}
+.popup.feedback-credit-application  > .wrapper form > .additional-img.bottom-img {
+  background-position: -513px 0;
+  bottom: -5px;
+}
+.popup.feedback-credit-application .filter-wrapper {
+  font-style: italic;
+  margin-top: 53px;
+}
+.popup.feedback-credit-application .filter-wrapper h4 {
+  font-size: 18px;
+}
+.popup.feedback-credit-application .filter-wrapper .filter {
+  position: relative;
+  font-size: 0;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .current {
+  font-size: 18px;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .current a {
+  text-decoration: none;
+  display: inline-block;
+  height: 22px;
+  line-height: 21px;
+  border-bottom: 1px dashed #bbbdc0;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .current a.on,
+.popup.feedback-credit-application .filter-wrapper .filter .current a:hover {
+  border-bottom: 1px dashed transparent;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .current a.on {
+  color: #808285;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown {
+  position: absolute;
+  display: none;
+  left: 50%;
+  top: 35px;
+  margin-left: -117px;
+  text-align: left;
+  width: 235px;
+  background: url(../images/bg-popup-choice-menu.png) no-repeat 0 0;
+  z-index: 777;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown .additional-img {
+  position: absolute;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown .additional-img.top-img {
+  background: url(../images/arrow-choice-menu.png) no-repeat bottom left;
+  height: 13px;
+  width: 23px;
+  top: -10px;
+  left: 105px;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown .additional-img.bottom-img {
+  background: url(../images/bg-popup-choice-menu.png) no-repeat bottom left;
+  left: 0;
+  bottom: -3px;
+  height: 5px;
+  width: 100%;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown ul {
+  padding: 28px 3px 10px 3px;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown li {
+  display: block;
+  margin-bottom: 21px;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown li.active a {
+  background-color: #ffffff;
+  color: #808285;
+  text-decoration: none;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown a {
+  display: block;
+  font-size: 14px;
+  line-height: 11px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown a:first-letter {
+  text-transform: uppercase;
+}
+.popup.feedback-credit-application .filter-wrapper .filter .choice-menu-dropdown a:hover {
+  background-color: #ffffff;
+}
+.popup.feedback-credit-application .filter-wrapper .separate-line {
+  background: #dddedf;
+  display: inline-block;
+  width: 134px;
+  height: 1px;
+  position: relative;
+  font-size: 0px;
+  margin-top: 20px;
+  margin-left: -1px;
+  margin-bottom: 5px;
+}
+.popup.feedback-credit-application .filter-wrapper .separate-line:before {
+  content: url(../images/line_dot.jpg) no-repeat;
+  height: 3px;
+  width: 4px;
+  color: #bbbdc0;
+  position: absolute;
+  left: -4px;
+  top: -1px;
+}
+.popup.feedback-credit-application .filter-wrapper .separate-line:after {
+  content: url(../images/line_dot.jpg) no-repeat;
+  color: #bbbdc0;
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.popup.feedback-credit-application .credit-limit {
+  font-size: 19px;
+  margin-top: 11px;
+}
+.popup.feedback-credit-application .credit-limit .value {
+  font-weight: bold;
+}
+.popup.feedback-credit-application .credit-limit .currency {
+  height: 14px;
+  width: 9px;
+}
+.popup.feedback-credit-application .col {
+  padding-top: 36px;
+  padding-bottom: 35px;
+  font-size: 13px;
+  color: #939598;
+  margin-left: 112px;
+  width: 287px;
+  text-align: left;
+}
+.popup.feedback-credit-application .col .row {
+  clear: both;
+  margin-bottom: 28px;
+  position: relative;
+}
+.popup.feedback-credit-application .col .row:before,
+.popup.feedback-credit-application .col .row:after {
+  content: "";
+  display: table;
+}
+.popup.feedback-credit-application .col .row:after {
+  clear: both;
+}
+.popup.feedback-credit-application .col .row.last {
+  margin-bottom: 0px;
+}
+.popup.feedback-credit-application .col .title {
+  float: left;
+  margin-top: 4px;
+  width: 110px;
+  height: 20px;
+}
+.popup.feedback-credit-application .col .text-wrap {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  font-size: 0;
+}
+.popup.feedback-credit-application .col .text-wrap input {
+  background: url(../images/input-text-bg.png) no-repeat 0 0;
+  border: none;
+  height: 24px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  color: #939598;
+  padding: 0 10px;
+}
+.popup.feedback-credit-application .col .text-wrap .additional-img {
+  background: url(../images/input-text-bg.png) no-repeat top right;
+  position: absolute;
+  right: 0;
+  width: 5px;
+  height: 100%;
+}
+.popup.feedback-credit-application .col .text-wrap.base-input {
+  width: 176px;
+  float: right;
+}
+.popup.feedback-credit-application .col .text-wrap.base-input input {
+  width: 156px;
+}
+.popup.feedback-credit-application .col .text-wrap.country span {
+  font-size: 13px;
+}
+.popup.feedback-credit-application .col .text-wrap.operator {
+  width: 41px;
+}
+.popup.feedback-credit-application .col .text-wrap.operator input {
+  width: 21px;
+}
+.popup.feedback-credit-application .col .text-wrap.other {
+  width: 95px;
+}
+.popup.feedback-credit-application .col .text-wrap.other input {
+  width: 75px;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item {
+  position: relative;
+  background: url(../images/input-text-bg.png) no-repeat 0 0;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .selected-value {
+  line-height: 24px;
+  font-size: 11px;
+  color: #939598;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .marker {
+  background: url(../images/marker.png) no-repeat 0 0;
+  display: inline-block;
+  height: 5px;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  margin-top: -2px;
+  right: 10px;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item.on .marker {
+  background-position: 0 -5px;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .select-list {
+  background: url(../images/input-modern-select.png) repeat-y -352px 0;
+  display: none;
+  position: absolute;
+  font-size: 11px;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  z-index: 1;
+  margin-top: -3px;
+  padding-bottom: 5px;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .select-list .additional-img {
+  background: url(../images/input-modern-select.png) no-repeat 0 0;
+  position: absolute;
+  width: inherit;
+  height: 5px;
+  left: 0;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .select-list .additional-img.top-img {
+  display: none;
+  background-position: 0 0;
+  top: 0;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .select-list .additional-img.bottom-img {
+  background-position: -176px 0;
+  bottom: 0;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .select-list .select-list-item {
+  font-size: 13px;
+  line-height: 16px;
+  font-style: italic;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item .select-list .select-list-item:hover {
+  background-color: #f4f4f4;
+}
+.popup.feedback-credit-application .col .text-wrap.selected-item.on .select-list {
+  display: block;
+}
+.popup.feedback-credit-application .col .check-marker {
+  display: inline-block;
+  margin: 10px 20px 0 0px;
+  vertical-align: middle;
+  font-size: 12px;
+  font-style: italic;
+}
+.popup.feedback-credit-application .col .check-marker.last {
+  margin-right: 0;
+}
+.popup.feedback-credit-application .col .check-marker input {
+  display: none;
+}
+.popup.feedback-credit-application .col .check-marker input.checked:before {
+  background-position: 0 -30px;
+}
+.popup.feedback-credit-application .col .check-marker label {
+  vertical-align: middle;
+  cursor: pointer;
+  padding-left: 29px;
+  position: relative;
+}
+.popup.feedback-credit-application .col .check-marker label:before {
+  background: url(../images/check-dot.png) no-repeat 0 0;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  content: " ";
+  height: 16px;
+  width: 15px;
+  cursor: pointer;
+}
+.popup.feedback-credit-application .col .check-marker label.checked:before {
+  background-position: 0 -30px;
+}
+.popup.feedback-credit-application .col .tel-number {
+  float: right;
+}
+.popup.feedback-credit-application .col .tel-number .text-wrap {
+  margin-right: 17px;
+}
+.popup.feedback-credit-application .col .tel-number .text-wrap.country {
+  margin-right: 9px;
+}
+.popup.feedback-credit-application .col .tel-number .text-wrap.other {
+  margin-right: 0;
+}
+.popup.feedback-credit-application .col .error-message {
+  position: absolute;
+  left: 112px;
+  color: #be1e2d;
+  font-size: 13px;
+  font-style: italic;
+  top: -21px;
+}
+.popup.feedback-credit-application .submit .form-button {
+  width: 508px;
+  height: 68px;
+  padding: 0;
+  margin-left: -2px;
+  border: none;
+  position: relative;
+  bottom: -3px;
+  cursor: pointer;
+}
+.popup.feedback-credit-application .submit .form-button {
+  background: url(../images/feedback-credit-application.png) 0 0 no-repeat;
+}
+.popup.feedback-credit-application .submit .form-button:hover {
+  background-position: 0 -68px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.lt-ie8 .clearfix {
+  zoom: 1;
+}

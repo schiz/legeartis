@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+ <html> 
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">   
+    <title>legiartis</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+    <!--[if lt IE 9]><script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Main container start -->
+      <section class="container configurator-page">
+        <!-- Header start -->
+        <header>
+          <a href="#" class="logo"><img src="images/logo.png" /></a>
+          <figure class="top-block-menu">
+            <a href="#">Сервис</a>
+            <a href="#">Авто с пробегом</a>
+            <a href="#">Контакты</a>
+            <i></i><a href="#" class="top-menu-dropdown-btn">Ещё</a>
+            <div class="top-menu-dropdown">
+              <div class="additional-img top-img"></div>
+              <div class="additional-img bottom-img"></div>
+              <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Финансовые услуги</a></li>
+                <li><a href="#">Корпоративным клиентам</a></li>
+              </ul>             
+            </div>
+            <div class="top-phone">
+              <i></i> <a href="#">+7 (495) 657 87 89</a>
+            </div>
+          </figure>
+          <nav class="main">
+            <div class="nav-slide-button"><span>Бренды</span></div>
+            <a href="#" class="active first">Бренды</a>
+            <a href="#">Подбор авто</a>
+            <a href="#" class="last">Тест-драйв</a>
+          </nav>
+        </header>
+        <!-- Header end -->
+
+        <!-- Configuration input -->
+        <section class="configurator config">
+          <form action="#" method="post">
+            <div class="row brands">
+              <div class="label col">
+                Марка:
+              </div>
+              <div class="form-elements col">
+                <div class="brand"><input type="checkbox" id="model-Ssangyong"><label for="model-Ssangyong">Ssangyong</label></div>
+                <div class="brand"><input type="checkbox" id="model-Nissan"><label for="model-Nissan">Nissan</label></div>
+                <div class="brand"><input type="checkbox" id="model-Chevrolet"><label for="model-Chevrolet">Chevrolet</label></div>
+                <div class="brand"><input type="checkbox" id="model-Renault"><label for="model-Renault">Renault</label></div>
+                <div class="brand"><input type="checkbox" id="model-Opel"><label for="model-Opel">Opel</label></div>
+                <div class="brand"><input type="checkbox" id="model-Mitsubishi"><label for="model-Mitsubishi">Mitsubishi</label></div>
+                <div class="brand last"><input type="checkbox" id="model-Hyundai"><label for="model-Hyundai">Hyundai</label></div>
+              </div>
+            </div>
+
+            <div class="row price">
+              <div class="label col">
+                Цена:
+              </div>
+               <div class="col form-elements">
+                <label class="limit" for="minCost">От</label>
+                  <input type="text" value="1000000" id="minCost">
+                <label class="currency"><img src="images/rur.jpg"/></label>
+                  <div id="config-slider"></div>
+                <label class="limit" for="maxCost">До</label>
+                  <input type="text" value="2500000" id="maxCost">
+                <label class="currency"><img src="images/rur.jpg"/></label>
+              </div>
+            </div>
+
+            <div class="row bodywork">
+              <div class="label col">
+                <label>Кузов:</label> 
+              </div>
+              <div class="form-elements col">
+                <figure class="cars-bodywork hatchback">
+                  <div class="additional-img left-img"></div>
+                  <div class="additional-img right-img"></div>
+                  <label for="bodywork-hatchback">Хэтчбек</label>
+                  <input type="checkbox" id="bodywork-hatchback">
+                </figure>
+                <figure class="cars-bodywork sedan">
+                  <div class="additional-img left-img"></div>
+                  <div class="additional-img right-img"></div>
+                  <label for="bodywork-sedan">Седан</label>
+                  <input type="checkbox" id="bodywork-sedan">
+                </figure>
+                <figure class="cars-bodywork wagon">
+                  <div class="additional-img left-img"></div>
+                  <div class="additional-img right-img"></div>
+                  <label for="bodywork-wagon">Универсал</label>
+                  <input type="checkbox" id="bodywork-wagon">
+                </figure>
+                <figure class="cars-bodywork suv">
+                  <div class="additional-img left-img"></div>
+                  <div class="additional-img right-img"></div>
+                  <label for="bodywork-suv">Внедорожник</label>
+                  <input type="checkbox" id="bodywork-suv">
+                </figure>
+              </div>
+            </div>
+            <nav class="submit">
+              <input type="submit" name="configsubmit" value="" class="form-button">
+            </nav>
+          </form>
+        </section>
+        <!-- Configuration form end -->
+
+
+        <!-- Articles start -->
+        <section class="articles news">
+          <article class="first">
+            <div class="article-line top"></div>
+            <img class="article-icon finance" src="images/article_icon.png"/>           
+            <div class="article-header">
+              <h3><a href="#">Финансовые услуги</a></h3>
+              <div class="article-line"></div>
+              <div class="article-text">
+                На територии ГК "Легеартис" расположен крупнейший в Зеленограде кредитно страховой центр.
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="article-line top"></div>
+            <img class="article-icon finance" src="images/article_icon2.png"/>           
+            <div class="article-header">
+              <h3><a href="#">Сервис и запчасти</a></h3>
+              <div class="article-line"></div>
+              <div class="article-text">
+                Статус официального дилера обязывает нас ремонтировать Ваш автомобиля в строгом
+              </div>
+            </div>
+          </article>
+          <article class="last">
+            <div class="article-line top"></div>
+            <img class="article-icon finance" src="images/article_icon3.png"/>           
+            <div class="article-header">
+              <h3><a href="#">Авто с пробегом</a></h3>
+              <div class="article-line"></div>
+              <div class="article-text">
+                Система трейд-ин позволит обменять старый автомобиль на новый с доплатой. 
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- Articles end -->
+
+        <!-- footer start --> 
+        <footer class="main">
+         <figure class="footer-logo">
+          <a href="#"><img src="images/logo_bottom.png"/></a>
+         </figure>
+         <figure class="footer-contacts">
+          <header>
+            <span>Контакты</span>            
+          </header>
+          <p>1234567789, Москва,<br>
+              ул. Лейтинанта Шмидта д.6<br>
+              тел.: <a href="#">8 800 2000 500<br></a>
+              факс.: +7 954 879 54 67<br>
+              <a class="email" href="mailTo:legeartis@gmail.com">legeartis@gmail.com</a>
+            </p>
+         </figure>
+         <figure class="footer-nav">
+          <header>
+            <span>Меню</span>            
+          </header>          
+            <ul class="first">
+              <li><a href="#">Сервис</a></li>
+              <li><a href="#">Финансовык услуги</a></li>
+              <li><a href="#">Корпоративным клиентам</a></li>
+              <li><a href="#">Авто с пробегом</a></li>
+            </ul>
+            <ul class="second">
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>          
+         </figure>
+         <figure class="footer-social">
+          <header>
+            <span>Мы в соц. сетях</span>            
+          </header>
+          <ul>           
+            <li><a href="#">Вконтакте</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Google+</a></li>
+            <li><a href="#">Lj</a></li>           
+          </ul>
+         </figure>
+        </footer>
+        <!-- footer end -->
+      </section>   
+    <!-- Main container end -->     
+    
+  <script type="text/javascript" src="js/vendor.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="js/selectivizr.js"></script><![endif]-->
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.popup.feedback-please-wait {
+  width: 429px;
+  height: 286px;
+  display: none;
+  background: url(../images/bg-please-wait-popup.png) 0 0 no-repeat;
+}
+.popup.feedback-please-wait .close {
+  margin: 0;
+  padding: 0;
+  border: none;
+  top: 33px;
+  right: 52px;
+  width: 11px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background: url(../images/close-button-x.png) 0 0 no-repeat;
+  z-index: 10;
+  cursor: pointer;
+}
+.popup.feedback-please-wait .close:hover {
+  background-position: 0 -10px;
+}
+.popup.feedback-please-wait p {
+  font-size: 14px;
+  padding-top: 75px;
+  line-height: 17px;
+}
